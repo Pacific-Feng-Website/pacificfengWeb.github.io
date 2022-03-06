@@ -9,4 +9,4 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: https://pacific-feng.github.io/Pacific-Feng.io/sitemap.xml
+Sitemap: https://pacific-feng.github.io/sitemap.xml
