@@ -74,7 +74,7 @@ div#navbarOffcanvasLg.offcanvas.offcanvas-end{ /*整個大螢幕的選取工作�
 
 header ul.navbar-nav li{
 	position : relative;
-	top: 9px;
+	top: 3px;
 	border-right: 1px #ccc solid;
 }
 
