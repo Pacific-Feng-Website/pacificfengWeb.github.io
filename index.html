@@ -54,14 +54,16 @@
 		  
 		  <footer id="footerPage"></footer>
 		
-		
-	$(function(){
-	if($(window).width()<480){ 
-		$('.navbar a').on('click', function(){
-		$('.navbar-toggle').click();
-	});
+	<script>
+	$(function()
+	{if($(window).width() < 480)
+	{ 
+		$('.navbar a').on('click', function(){$('.navbar-toggle').click();});
+	}	
 	}
-	});
+	);
+	</script>
+	
 	  </body>
 		
 	</html>
