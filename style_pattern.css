@@ -163,24 +163,24 @@ footer div h6{
 	position: absolute;
 	cursor: pointer;
 	max-width: 100%;
-	bottom: 17px;
+	bottom: 20px;
 	color: white;
 }
 
 #ig{
 	position: absolute;
 	cursor: pointer;
-	width: 45px;
-	height: 43px;
-	bottom: 19px;
+	max-width: 100%;
+	bottom: 20px;
+	color: white;
 }
 
 #mail{
 	position: absolute;
 	cursor: pointer;
-	width: 45px;
-	height: 45px;
-	bottom: 19px;
+	max-width: 100%;
+	bottom: 20px;
+	color: white;
 }
 
 #BottomTitle{
