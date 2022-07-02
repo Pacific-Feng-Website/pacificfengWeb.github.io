@@ -65,7 +65,7 @@ a#navbarDropdown.nav-link.dropdown-toggle{ /*小螢幕的選取工作列*/
 	.navbar-nav li >ul.dropdown-menu {
 		margin-left: -160px;
 		margin-right: 550px;
-		margin-top: -50px;
+		margin-top: -150px;
 	}
 }
 
@@ -75,7 +75,7 @@ div#navbarOffcanvasLg.offcanvas.offcanvas-end{ /*整個大螢幕的選取工作�
 
 header ul.navbar-nav li{
 	position : relative;
-	top: 5px;
+	top: 9px;
 	border-right: 1px #ccc solid;
 }
 
