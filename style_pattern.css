@@ -54,7 +54,6 @@ a#navbarDropdown.nav-link.dropdown-toggle{ /*小螢幕的選取工作列*/
 .dropdown-submenu>.dropdown-menu {
     top: 0%;
     left: 100%;
-    margin-top: -3px;
 }
 
 .navbar-nav li:hover >ul.dropdown-menu {
@@ -62,7 +61,7 @@ a#navbarDropdown.nav-link.dropdown-toggle{ /*小螢幕的選取工作列*/
     display: block;
 }
 
-@media only screen and (max-width: 991px){
+@media only screen and (max-width: 991px) and (min-width: 768px){
 	.navbar-nav li >ul.dropdown-menu {
 		margin-left: -160px;
 		margin-right: 550px;
