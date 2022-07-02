@@ -163,10 +163,7 @@ footer div h6{
 	position: absolute;
 	cursor: pointer;
 	max-width: 100%;
-	width: 40px;
-	height: 42px;
-	bottom: 19px;
-	z-index: 2;
+	bottom: 17px;
 }
 
 #ig{
