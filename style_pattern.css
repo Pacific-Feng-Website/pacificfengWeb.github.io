@@ -61,14 +61,6 @@ a#navbarDropdown.nav-link.dropdown-toggle{ /*小螢幕的選取工作列*/
     display: block;
 }
 
-@media only screen and (max-width: 991px) and (min-width: 768px){
-	.navbar-nav li >ul.dropdown-menu {
-		margin-left: -160px;
-		margin-right: 550px;
-		margin-top: -150px;
-	}
-}
-
 div#navbarOffcanvasLg.offcanvas.offcanvas-end{ /*整個大螢幕的選取工作列*/
 	margin-left: 29vw;
 }
