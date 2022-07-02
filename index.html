@@ -53,17 +53,16 @@
 		  </section>
 		  
 		  <footer id="footerPage"></footer>
-		
+		  
 	<script>
-	$(function()
-	{if($(window).width() < 20000)
-	{ 
-		$('.navbar a').on('click', function(){$('.navbar-toggle').click();});
-	}	
-	}
-	);
-	</script>
-	
+	$('.navbar a').on('click', function()
+{
+if($(this).attr("data-toggle") == undefined)
+{
+$('.navbar-toggle').click();
+}
+});
+</script>
 	  </body>
 		
 	</html>
