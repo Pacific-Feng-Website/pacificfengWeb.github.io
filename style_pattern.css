@@ -327,10 +327,10 @@ footer div h6{
 }
 
 .seperator{
-    display: none;
-    background-color: var(--grey4);
-    width: 100%;
-    height: 1px;
-    margin-top: 2em;
+    margin: 1rem 0;
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
 }
 
