@@ -1,3 +1,7 @@
+body{
+	background-image: url("../assets/hero.jpg");
+}
+
 #SelfIntro div.container{
 	margin-top: 120px;
 }
