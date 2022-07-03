@@ -335,3 +335,7 @@ footer div h6{
 	height: 1px;
 }
 
+div.mce_inline_error{
+	background-color:#F0EFED ;
+}
+
