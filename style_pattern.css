@@ -70,7 +70,7 @@ a#navbarDropdown.nav-link.dropdown-toggle{ /*小螢幕的選取工作列*/
 }
 
 @media only screen and (max-width: 1000px) {
-	.nsysu{
+	a#nsysu.nav-link.active{
 		margin-top: 50px ;
 	}
 }
