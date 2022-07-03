@@ -69,6 +69,12 @@ a#navbarDropdown.nav-link.dropdown-toggle{ /*小螢幕的選取工作列*/
 	}
 }
 
+@media only screen and (max-width: 1000px) {
+	.nsysu{
+		margin-top: 5px ;
+	}
+}
+
 div#navbarOffcanvasLg.offcanvas.offcanvas-end{ /*整個大螢幕的選取工作列*/
 	margin-left: 29vw;
 }
