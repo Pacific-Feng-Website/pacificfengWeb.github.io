@@ -332,5 +332,6 @@ footer div h6{
     background-color: currentColor;
     border: 0;
     opacity: .25;
+	height: 1px;
 }
 
