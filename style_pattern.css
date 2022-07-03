@@ -189,6 +189,14 @@ footer div h6{
 	color: white;
 }
 
+#github{
+	position: absolute;
+	cursor: pointer;
+	max-width: 100%;
+	bottom: 20px;
+	color: white;
+}
+
 #BottomTitle{
 	position: relative;
 	top: 200px;
@@ -198,16 +206,21 @@ footer div h6{
 	
 	#fb{
 	  position: absolute;
-      left: 1200px;
+      left: 1135px;
       bottom: 14px;
 	}
 	#ig{
 	  position: absolute;
-      left: 1265px;
+      left: 1200px;
       bottom: 14px;
 	}
 	#mail{
-	position: absolute;
+	  position: absolute;
+	  left: 1265px;
+	  bottom: 14px;
+	}
+	#github{
+	  position: absolute;
 	  left: 1330px;
 	  bottom: 14px;
 	}
@@ -217,15 +230,20 @@ footer div h6{
 	
 	#fb{
 	  position: absolute;
-      left: 1000px;
+      left: 935px;
       bottom: 14px;
 	}
 	#ig{
 	  position: absolute;
-      left: 1065px;
+      left: 1000px;
       bottom: 14px;
 	}
 	#mail{
+	  position: absolute;
+	  left: 1065px;
+	  bottom: 14px;
+	}
+	#github{
 	position: absolute;
 	  left: 1130px;
 	  bottom: 14px;
@@ -236,16 +254,21 @@ footer div h6{
 	
 	#fb{
 	  position: absolute;
-      left: 800px;
+      left: 735px;
       bottom: 14px;
 	}
 	#ig{
 	  position: absolute;
-      left: 865px;
+      left: 800px;
       bottom: 14px;
 	}
 	#mail{
-	position: absolute;
+	  position: absolute;
+	  left: 865px;
+	  bottom: 14px;
+	}
+	#github{
+	  position: absolute;
 	  left: 930px;
 	  bottom: 14px;
 	}
@@ -255,15 +278,20 @@ footer div h6{
 	
 	#fb{
 	  position: absolute;
-      left: 600px;
+      left: 535px;
       bottom: 14px;
 	}
 	#ig{
 	  position: absolute;
-      left: 665px;
+      left: 600px;
       bottom: 14px;
 	}
 	#mail{
+	position: absolute;
+	  left: 665px;
+	  bottom: 14px;
+	}
+	#github{
 	position: absolute;
 	  left: 730px;
 	  bottom: 14px;
@@ -274,16 +302,21 @@ footer div h6{
 	
 	#fb{
 	  position: absolute;
-      left: 500px;
+      left: 435px;
       bottom: 14px;
 	}
 	#ig{
 	  position: absolute;
-      left: 565px;
+      left: 500px;
       bottom: 14px;
 	}
 	#mail{
-	position: absolute;
+	  position: absolute;
+	  left: 565px;
+	  bottom: 14px;
+	}
+	#github{
+	  position: absolute;
 	  left: 630px;
 	  bottom: 14px;
 	}
@@ -311,16 +344,21 @@ footer div h6{
 	
 	#fb{
 	  position: absolute;
-      left: 150px;
+      left: 85px;
       bottom: 14px;
 	}
 	#ig{
 	  position: absolute;
-      left: 215px;
+      left: 150px;
       bottom: 14px;
 	}
 	#mail{
-	position: absolute;
+	  position: absolute;
+	  left: 215px;
+	  bottom: 14px;
+	}
+	#github{
+	  position: absolute;
 	  left: 280px;
 	  bottom: 14px;
 	}
