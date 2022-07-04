@@ -2,6 +2,7 @@
 
 nav.navbar{
 	border-bottom: 1px solid #ccc;
+	box-shadow: 0 5px 6px -6px #bbb;
 }
 
 
