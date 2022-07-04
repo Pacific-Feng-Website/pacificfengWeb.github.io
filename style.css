@@ -14,12 +14,14 @@
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 40px;
+	color: white;
 }
 
 #SelfIntro hr{
 	position: relative;
 	width : 300px;
 	margin-bottom: 40px ;
+	color: white;
 }
 
 #SelfIntro h2{
@@ -29,4 +31,22 @@
 	line-height: 1.5;
 	letter-spacing: 2px;
 	margin-bottom: 10px;
+	color: white;
+}
+
+body{
+	background: url('https://raw.githubusercontent.com/Pacific-Feng/Picture_Storer/main/background1.jpg') ;
+	position: relative;
+	z-index: 1;
+}
+
+body::after{
+	background: inherit;
+	position: absolute;
+	background-position: center ;
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-color:black;"
+	filter:blur(2px);
+	z-index: 2;
 }
