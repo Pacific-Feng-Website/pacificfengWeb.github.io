@@ -57,7 +57,9 @@ a#navbarDropdown.nav-link.dropdown-toggle{ /*小螢幕的選取工作列*/
     left: 100%;
 }
 
-
+a#nsysu.nav-link.active {
+    margin-top: 5px;
+}
 
 .navbar-nav li:hover >ul.dropdown-menu {
     margin-right: 0px;
