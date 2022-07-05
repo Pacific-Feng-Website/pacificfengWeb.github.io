@@ -62,6 +62,7 @@ a#nsysu.nav-link.active {
 }
 
 .navbar-nav li:hover >ul.dropdown-menu {
+	display: block;
     margin-right: 0px;
 }
 
