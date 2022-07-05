@@ -141,7 +141,8 @@ header div ul.navbar-nav.me-2.ml-10.mb-lg-0 {
 
 footer div.Outer{
 	position: relative;
-	background-color: white;
+	background-color: black;
+	background-color: white !important;
 	height: 80px;
 	width: 100%;
 	z-index: 0;
@@ -152,7 +153,7 @@ footer div h6{
 	bottom: 19px;
 	font-family:'monospace', Courier;
 	font-weight: 550;
-	color: black;
+	color: black !important;
 	z-index: 1;
 }
 
@@ -161,7 +162,8 @@ footer div h6{
 	cursor: pointer;
 	max-width: 100%;
 	bottom: 20px;
-	color: black;
+	color: white;
+	color: black !important;
 }
 
 #ig{
@@ -169,7 +171,8 @@ footer div h6{
 	cursor: pointer;
 	max-width: 100%;
 	bottom: 20px;
-	color: black;
+	color: white;
+	color: black !important;
 }
 
 #mail{
@@ -177,7 +180,8 @@ footer div h6{
 	cursor: pointer;
 	max-width: 100%;
 	bottom: 20px;
-	color: black;
+	color: white;
+	color: black !important;
 }
 
 #github{
@@ -185,7 +189,8 @@ footer div h6{
 	cursor: pointer;
 	max-width: 100%;
 	bottom: 20px;
-	color: black;
+	color: white;
+	color: black !important;
 }
 
 #BottomTitle{
@@ -318,7 +323,8 @@ footer div h6{
 	
 	footer div.Outer{
 	position: relative;
-	background-color: white;
+	background-color: black;
+	background-color: white !important;
 	height: 120px;
 	width: 100%;
 	z-index: 0;
@@ -330,7 +336,8 @@ footer div h6{
 	left: 60px ;
 	font-family:'monospace', Courier;
 	font-weight: 2px;
-	color: black;
+	color: white;
+	background-color: black !important;
 	z-index: 1;
 	}
 	
