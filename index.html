@@ -10,7 +10,6 @@
 		
 				gtag('config', 'G-R0JK8NWH9Q');
 		</script>
-
 	  
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,7 +29,10 @@
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;500&display=swap" rel="stylesheet">
 		
 		<script src="https://kit.fontawesome.com/df50142789.js" crossorigin="anonymous"></script>
-			
+		
+		<link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
+	<script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+		
 		<script>
 		  $(function(){
 			$('#headerPage').load("header.html");
@@ -64,13 +66,18 @@
 		
 		  <footer id="footerPage"></footer>
 		  
-		  <!-- Begin Comments -->
-{% if page.comments != false %}
-  <div id="comments">
-    {% include comments.html %}
-    </div>
-{% endif %}
-<!-- End Comments -->
+			<div id="gitalk-container">
+				var gitalk = new Gitalk({
+				clientID: '605059f211f55c22c488', // GitHub Application Client ID
+				clientSecret: '75a48ab800faddbaeacbedbc332eb4eea3409629', // GitHub Application Client Secret
+				repo: 'Pacific-Feng.github.io'      // 存放评论的仓库
+				owner: 'Pacific-Feng',          // 仓库的创建者，
+				admin: ['Pacific-Feng'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
+				id: https://pacificfeng.com/,      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+				})
+				
+				gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
+			</div>
 	
 	  
 	  </body>
