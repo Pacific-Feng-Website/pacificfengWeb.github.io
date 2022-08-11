@@ -63,6 +63,14 @@
 
 		
 		  <footer id="footerPage"></footer>
+		  
+		  <!-- Begin Comments -->
+{% if page.comments != false %}
+  <div id="comments">
+    {% include comments.html %}
+    </div>
+{% endif %}
+<!-- End Comments -->
 	
 	  
 	  </body>
