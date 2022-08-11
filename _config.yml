@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 url: http://pacificfeng.com/
 root: /Pacific-Feng.io/
+# staticman comments configuration
+staticman_url: https://pacific-feng-static-robot.herokuapp.com/v2/entry/Pacific-Feng/Pacific-Feng.github.io/master/comments
