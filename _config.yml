@@ -1,3 +1,13 @@
 theme: jekyll-theme-cayman
 url: http://pacificfeng.com/
 root: /Pacific-Feng.io/
+gitalk:
+  enable: true
+  github_id: Pacific-Feng # GitHub 作者帳號
+  repo: Pacific-Feng.github.io # 你的 Repo 名稱，通常就是網域
+  client_id: 605059f211f55c22c488 # 剛剛申請的 Client ID
+  client_secret: 75a48ab800faddbaeacbedbc332eb4eea3409629 # 剛剛申請的 Client Secret
+  admin_user: Pacific-Feng # 管理者的帳號
+  distraction_free_mode: true # 無干擾模式
+  language: zh-TW ## 語系
+  labels: Gitalk
